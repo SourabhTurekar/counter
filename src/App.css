@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.counter-box{
+  position: relative;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  height: 75px;
+  width: 200px;
+  align-content: center;
+  background-color: white;
+  border-radius: 8px;
+  border-color: 676bad;
+  border-width: 6px;
+  border-style:double;
+}
+
+.display-count{
+  color: black;
+  font-size: 45px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
